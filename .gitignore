@@ -1,0 +1,43 @@
+# Skip temp files
+\#*
+.#*
+*~
+
+# Skip ssl key files
+ssl.key
+ssl.cer
+ssl.key-encrypted
+*.pem
+
+# intellij files
+.idea
+
+# npm log files
+npm-debug.log
+
+# Don't check in modules
+node_modules/
+
+# Don't check in compiled stylesheets
+http/public/compiled/*
+
+# ignore mac os file
+.DS_store
+
+# ignore vi swap files
+*.sw?
+
+# CSV files used for data loads
+collector/admin/*.csv
+
+# Log file
+*.out
+*.log
+
+# The odd Windows/DOS EXE
+*.exe
+
+#
+vimsessions
+vimsessions/*
+admin/downloads/csv/cat/*.csv
